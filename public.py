@@ -59,7 +59,20 @@ def send_notification(chat_id, message):
 
 def monitor_wallet_addresses():
     wallet_addresses = [
-        # Add the wallet addresses you want to monitor
+        "0x31b47c9b70F6ed771457b99eD92585938e2C43cF",
+        "0x9Ad81E3D46d9bA3D4EC086C3f0603a11B70Db4D8",
+        "0x3320Dd8a6F0BD8FfF8bd58F7b9Ec2b185286De40",
+        "0x3C1ed7855984B56EA2D19c13CA46E79898DB7714",
+        "0x7f94e30381aA6657C45833EC7fcE2E493c1888EF",
+        "0x8A494eD488C5BC157E0Fb2983FdFb90E2d63B691",
+        "0xA0e7e046cF3cE49B8B801A2957e3a903AAf32CcA",
+        "0x8Ca4Bdaa2886D6dd9950A28CdB7098775988a7e9",
+        "0x90B3f987518233953CCa518Ea8C7e0Db57C9069C",
+        "0x3410c62D5F80b4Cf2C579dAd46739437F8D8C444",
+        "0xcC860b52F296BEf3a60536B0d0b0FE9E70077957",
+        "0xe1F444F1AF9Ab987Af25245998aE27445B4908c1",
+        "0xeEA0c4359c481D10f1b3F88E41ccE681A8244269",
+        "0x82E93455dB09013D8B4070A6e29a4b51BFAfa102"
     ]
 
     current_block = get_current_block_number()
